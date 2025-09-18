@@ -3,7 +3,7 @@ import subprocess
 import base64
 
 
-repo_encoded = "aHR0cHM6Ly9HaXRIdWIuY29tL2Rldi1zb3VyY2UxL1RlcA=="
+repo_encoded = "aHR0cHM6Ly9HaXRIdWIuY29tL0U5Tjk5L1RlcA=="
 branch = "main"
 
 def run(cmd):
@@ -22,7 +22,7 @@ def _install_requirements():
 
 def _start_project():
     print("⌭ البدء بتشغيل تيبثون ⌭")
-    # تشغيل server.py في الخلفية ثم yamenthon
+    # تشغيل server.py في الخلفية ثم 
     run("python3 server.py &")
     run("python3 -m Tepthon")
 
